@@ -239,6 +239,7 @@ pub const __SIZEOF_PTHREAD_MUTEXATTR_T: usize = 4;
 pub const RLIM_INFINITY: ::rlim_t = 0x7fffffff;
 
 pub const SYS_gettid: ::c_long = 4222;   // Valid for O32
+pub const SYS_getrandom: ::c_long = 4000 + 353;
 
 #[link(name = "util")]
 extern {
